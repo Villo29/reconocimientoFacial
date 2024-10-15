@@ -14,8 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      debugShowCheckedModeBanner: false, // Esta línea quita la etiqueta de debug
-      initialRoute: '/',
+      debugShowCheckedModeBanner: false,
       routes: {
         '/': (context) => FaceRecognitionView(),
         '/nextView': (context) => NextView(),
